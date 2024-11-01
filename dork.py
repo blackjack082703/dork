@@ -1,11 +1,9 @@
-# mengedit nama author dan mereupload nya tidak akan membuat mu jago kawan
-# recode + reupload ntah dimana saja = lammer lo kntl, belajar makanya biar bisa
-# coded by root@x-krypt0n-x
-# 1 march - 10 march 2021
 
 import sys
 import time
 import os
+#mengimport libary yang dibutuhkan
+
 
 # custom speed strings
 def slow(s):
@@ -35,9 +33,10 @@ except ImportError:
     med("[*] done ...")
 
 def banner():
-    print(""" _
+    print("""
+              _
 __      _____| | ___ ___  _ __ ___   ___
-\ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \\ 
+\ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \ 
  \ V  V /  __/ | (_| (_) | | | | | |  __/
   \_/\_/ \___|_|\___\___/|_| |_| |_|\___|
           
